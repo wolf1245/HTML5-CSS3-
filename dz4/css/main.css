@@ -1,0 +1,25 @@
+li:nth-child(1) {
+	color: blue;
+}
+
+li:nth-child(5) {
+	color: blueviolet;
+}
+
+li::after {
+	content: "dfdfdfdfdfd";
+	width: 10px;
+	height: 10px;
+	color: #b32727;
+}
+
+h1 {
+	color: #220707
+}
+
+h1::before {
+	content: "HHHHHHHH";
+	width: 20px;
+	height: 20px;
+	color: rgb(6, 110, 201);
+}

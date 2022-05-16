@@ -1,0 +1,60 @@
+.padding {
+	padding: 0 22%;
+}
+
+.article {
+	word-break: break-all;
+}
+
+.solid {
+	border: 5px solid black;
+}
+
+.dashed {
+	border: 5px dashed black;
+}
+
+.dotted {
+	border: 5px dotted black;
+}
+
+.double {
+	border: 5px double black;
+}
+
+.grouve-3d {
+	border: 5px groove rgb(131, 239, 251);
+}
+
+.ridge-3d {
+	border: 5px ridge rgb(63, 224, 108)
+}
+
+.inset-3d {
+	border: 5px inset rgb(227, 238, 20);
+}
+
+.outset-3d {
+	border: 5px outset rgb(252, 17, 209)
+}
+
+.bg-img {
+	height: 100px;
+	background: url(../img/figure.jpg) center center no-repeat;
+}
+
+.bg-grey {
+	background-color: grey;
+}
+
+.bg-rgb {
+	background-color: rgb(0, 0, 0);
+}
+
+.bg-rgba {
+	background-color: rgba(223, 78, 78, 0.7);
+}
+
+.bg-color {
+	background-color: #fff565;
+}

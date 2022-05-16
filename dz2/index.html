@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>IMG and TABLE</title>
+	<style>
+		table {
+			width: 100%;
+			height: 300px;
+		}
+		table, tr, td {
+			border: 1px solid black;
+		}
+	</style>
+</head>
+<body>
+	<img src="./img/figure.jpg" title="figure" width="150px" height="100px" alt="figure" usemap="#figure">
+	<map name="#figure">
+		<area href="#" shape="rect" coords="27, 24, 198, 184" title="rect"  alt="figure">
+		<!-- Через фигму смотрим кординаты фигуры на картинке и указываем их -->
+	</map>
+	<table>
+		<caption>name</caption>
+		<thead></thead>
+		<tbody>
+			<tr>
+				<td colspan="2" rowspan="2"></td>
+				<td rowspan="4"></td>
+				<td colspan="4"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td colspan="3"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td rowspan="2"></td>
+				<td colspan="2"></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td  rowspan="2"></td>
+				<td colspan="2"></td>
+				<td rowspan="3"></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td colspan="2"></td>
+				<td rowspan="2"></td>
+				<td></td>
+				<td rowspan="2"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</tbody>
+		<tfoot></tfoot>
+	</table>
+	<ul>
+		<li>
+			1
+			<ul>
+				<li>1.1</li>
+			</ul>
+		</li>
+		<li>
+			2
+			<ol>
+				<li>2.2</li>
+			</ol>
+		</li>
+	</ul>
+</body>
+</html>

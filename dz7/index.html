@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+	<form action="#" method="post" autocomplete="on">
+		<fieldset>
+			<legend>Personal information</legend>
+			<label>
+				*First name:
+				<input type="text" name="firstName" required>
+			</label>
+			<label>
+				Mibble name:
+				<input type="text" name="mibbleName">
+			</label>
+			<label>
+				*Last name:
+				<input type="text" name="lastName" required>
+			</label>
+		</fieldset>
+		<fieldset>
+			<legend>Adress</legend>
+			<label>
+				Adress:
+				<input type="text" name="adress">
+			</label>
+			<label>
+				City of Town:
+				<input type="text" name="cityOfTown">
+			</label>
+			<label>
+				State:
+				<select name="state" id="state">
+					<option disabled>Choose a State</option>
+					<option value="California">California</option>
+				</select>
+			</label>
+			<label>
+				*Zip code:
+				<input type="text" name="zipCode" required>
+			</label>
+		</fieldset>
+	</form>
+	<br>
+	<br>
+	<br>
+	<section class="aut">
+		<form action="#" method="post" autocomplete="on">
+			<legend><b>Login to Web App</b></legend>
+			<input type="text" placeholder="Username or Email">
+			<input type="password" placeholder="Password">
+			<input type="checkbox" placeholder="Remember me on this computer">
+			<button>Login</button>
+		</form>
+		<div class="forgot">
+			<span>Forgot your password?</span>
+			<a href="#">Click here to reset it</a>
+		</div>
+	</section>
+</body>
+</html>
